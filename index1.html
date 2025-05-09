@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Security Camera</title>
+    <style>
+        body { text-align: center; font-family: Arial; }
+        h1 { margin: 20px; }
+        img { border: 5px solid black; margin-top: 20px; width: 80%; max-width: 800px; }
+    </style>
+</head>
+<body>
+    <h1>Motion Detection Camera</h1>
+    <img src="{{ url_for('video') }}" alt="Live feed" />
+</body>
+</html>
